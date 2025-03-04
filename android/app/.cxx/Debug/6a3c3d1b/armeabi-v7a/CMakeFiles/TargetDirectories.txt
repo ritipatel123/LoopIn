@@ -1,0 +1,2 @@
+C:/Users/sairi/OneDrive/Desktop/Apps/LoopIn/android/app/.cxx/Debug/6a3c3d1b/armeabi-v7a/CMakeFiles/edit_cache.dir
+C:/Users/sairi/OneDrive/Desktop/Apps/LoopIn/android/app/.cxx/Debug/6a3c3d1b/armeabi-v7a/CMakeFiles/rebuild_cache.dir
