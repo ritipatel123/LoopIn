@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "648931740102",
+    "project_id": "loopin-e72e6",
+    "storage_bucket": "loopin-e72e6.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:648931740102:android:3ffd5c2485ec7f54020ac7",
+        "android_client_info": {
+          "package_name": "com.example.bruinlink"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA41Ruz2BbQlqeybIENkP5UHFk7tmgQwF8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
