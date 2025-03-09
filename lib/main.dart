@@ -2,7 +2,6 @@ import 'package:flutter/material.dart';
 import 'package:firebase_core/firebase_core.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 import 'loginPage.dart';
-import 'homePage.dart';
 import 'welcomePage.dart';
 import 'signupPage.dart';
 
@@ -38,7 +37,7 @@ class MyApp extends StatelessWidget {
         '/welcome': (context) => const WelcomePage(),
         '/login': (context) => const LoginPage(),
         '/signup': (context) => const SignupPage(),
-        '/home': (context) => const HomePage(),
+
       },
     );
   }
@@ -54,12 +53,12 @@ class AuthWrapper extends StatelessWidget {
       stream: FirebaseAuth.instance.authStateChanges(),
       builder: (context, snapshot) {
         // If the user is logged in
-        if (snapshot.hasData) {
-          return const HomePage();
-        }
+        
         // If the user is not logged in, show welcome page
         return const WelcomePage();
       },
     );
   }
 }
+
+
